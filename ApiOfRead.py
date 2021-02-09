@@ -18,7 +18,7 @@ access_token_list=['wangziyingwen']*int(app_num)
 ########################################
 config = {
          'api_rand': 1,
-         'rounds': 3,
+         'rounds': 6,
          'rounds_delay': [1,60,120],
          'api_delay': [1,2,6],
          'app_delay': [0,30,60],
