@@ -27,7 +27,7 @@ def getpublickey(Auth,geturl):
     for retry_ in range(4):
         html = req.get(geturl,headers=headers)
         if html.status_code < 300:
-            print("公钥获取成功")
+            print("公钥获取成功!")
             break
         else:
             if retry_ == 3:
