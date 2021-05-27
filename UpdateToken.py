@@ -31,7 +31,7 @@ def getpublickey(Auth,geturl):
             break
         else:
             if retry_ == 3:
-                print("公钥获取失败，请检查secret里 GH_TOKEN 格式与设置是否正确")
+                print("公钥获取失败，请检查 secret 里 GH_TOKEN 格式与设置是否正确")
     jsontxt = json.loads(html.text)
     public_key = jsontxt['key']
     global key_id 
