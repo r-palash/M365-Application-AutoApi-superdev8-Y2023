@@ -10,7 +10,7 @@ access_token_list=['wangziyingwen']*int(app_num)
 ###########################
 # config选项说明
 # 0：关闭  ， 1：开启
-# api_rand：是否随机排序 api （开启随机抽取12个，关闭默认初版10个）。默认 1 开启
+# api_rand：是否随机排序 api （开启随机抽取 12 个，关闭默认初版10个）。默认 1 开启
 # rounds: 轮数，即每次启动跑几轮。
 # rounds_delay: 是否开启每轮之间的随机延时，后面两参数代表延时的区间。默认 0 关闭
 # api_delay: 是否开启 api 之间的延时，默认0关闭
