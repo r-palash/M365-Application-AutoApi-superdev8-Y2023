@@ -12,7 +12,7 @@ gh_token=os.getenv('GH_TOKEN')
 gh_repo=os.getenv('GH_REPO')
 #ms_token=os.getenv('MS_TOKEN')
 #client_id=os.getenv('CLIENT_ID')
-#test code 001
+#test code 001 002
 #client_secret=os.getenv('CLIENT_SECRET')
 Auth=r'token '+gh_token
 geturl=r'https://api.github.com/repos/'+gh_repo+r'/actions/secrets/public-key'
