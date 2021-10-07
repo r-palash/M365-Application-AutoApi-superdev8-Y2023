@@ -8,7 +8,7 @@ import json,sys,time,random
 #sys.setdefaultencoding('utf-8')
 emailaddress=os.getenv('EMAIL')
 app_num=os.getenv('APP_NUM')
-##############################
+################################
 # config选项说明
 # 0：关闭  ， 1：开启
 # allstart：是否全 api 开启调用，关闭默认随机抽取调用。默认 0 关闭
