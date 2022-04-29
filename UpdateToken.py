@@ -19,7 +19,7 @@ geturl=r'https://api.github.com/repos/'+gh_repo+r'/actions/secrets/public-key'
 #puturl=r'https://api.github.com/repos/'+gh_repo+r'/actions/secrets/MS_TOKEN'
 key_id='wangziyingwen'
 
-#公钥获取
+# 公钥获取
 def getpublickey(Auth,geturl):
     headers={
             'Accept': 'application/vnd.github.v3+json','Authorization': Auth
