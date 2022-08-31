@@ -8,7 +8,7 @@ if app_num == '':
     app_num = '1'
 access_token_list=['wangziyingwen']*int(app_num)
 #########################################
-# config选项说明
+# config 选项说明
 # 0：关闭  ， 1：开启
 # api_rand：是否随机排序 api （开启随机抽取 12 个，关闭默认初版 10个）。默认 1 开启
 # rounds: 轮数，即每次启动跑几轮。
